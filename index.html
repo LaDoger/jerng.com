@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yukai Jerng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .bio {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 40px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link {
+            display: block;
+            padding: 16px 24px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .link:hover {
+            border-color: #FA660F;
+            color: #FA660F;
+            background-color: rgba(250, 102, 15, 0.08);
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 60px 24px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .bio {
+                font-size: 0.95rem;
+            }
+
+            .link {
+                padding: 14px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Yukai Jerng</h1>
+        <p class="bio">Hi! I'm an ex Bitcoin miner and AI enthusiast. I currently work at Strategy, the #1 Bitcoin company in the world. Feel free to reach out to me!</p>
+        <div class="links">
+            <a href="mailto:yjerng@strategy.com" class="link">yjerng@strategy.com</a>
+            <a href="https://x.com/LaDoger" target="_blank" rel="noopener noreferrer" class="link">x.com/LaDoger</a>
+            <a href="https://instagram.com/ladoger21" target="_blank" rel="noopener noreferrer" class="link">instagram.com/ladoger21</a>
+            <a href="https://ladoger.art" target="_blank" rel="noopener noreferrer" class="link">ladoger.art</a>
+            <a href="https://ladoger.xyz" target="_blank" rel="noopener noreferrer" class="link">ladoger.xyz</a>
+            <a href="https://saylor.digital" target="_blank" rel="noopener noreferrer" class="link">saylor.digital</a>
+        </div>
+    </main>
+</body>
+</html>
+
