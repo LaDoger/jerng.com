@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yukai Jerng</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,13 +23,22 @@
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            padding: 40px 20px;
+            padding: 16px;
         }
 
         .container {
             width: 100%;
             max-width: 420px;
             text-align: center;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 16px;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
         }
 
         h1 {
@@ -42,7 +52,7 @@
             font-size: 1rem;
             line-height: 1.6;
             color: rgba(255, 255, 255, 0.8);
-            margin-bottom: 20px;
+            margin-bottom: 16px;
         }
 
         .bio a {
@@ -93,7 +103,7 @@
 
         @media (max-width: 480px) {
             body {
-                padding: 20px;
+                padding: 16px;
             }
 
             .link {
@@ -104,6 +114,7 @@
 </head>
 <body>
     <main class="container">
+        <img src="B.jpg" alt="Yukai Jerng" class="profile-pic">
         <h1>Yukai Jerng</h1>
         <p class="bio">Former <a href="https://hope.com" target="_blank" rel="noopener noreferrer">Bitcoin</a> miner. <a href="https://ladoger.art" target="_blank" rel="noopener noreferrer">AI enthusiast</a>. I currently work at <a href="https://strategy.com" target="_blank" rel="noopener noreferrer">Strategy</a>, the #1 Bitcoin company in the world. Feel free to contact me.</p>
         <div class="links">
